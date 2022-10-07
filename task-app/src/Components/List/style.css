@@ -1,0 +1,50 @@
+.wrapper{
+    width: 506px;
+    border-radius: 50px;
+    background-color: #2344e0c9;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px; 
+}
+.setTasks{
+    display: flex;
+    margin: 25px;
+    flex-direction: row;
+    width: 267px;
+    height: 50px;
+    background-color: rgb(94, 68, 210);
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 4px 12px;
+    border-radius: 30px;
+    padding: 37px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(187, 193, 207, 0.658);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: rgb(255, 252, 252) 3px 4px 7px;
+}
+.setEdit{
+    width: 257px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(106, 133, 169);
+    box-shadow: rgba(41, 37, 37, 0.968) 0px 4px 12px;
+}
+.editInput{
+    width: 200px;
+    height: 30px;
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
